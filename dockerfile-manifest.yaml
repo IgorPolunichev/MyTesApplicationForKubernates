@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: dockerfile-app
+      app: dockerfile
   template:
     metadata:
       labels:
-        app: dockerfile-app
+        app: dockerfile
     spec:
       containers:
         - name: dockerfile-app
