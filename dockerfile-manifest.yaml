@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: dockerfile-app
-          image: dockerfile:latest
+          image: dockerfile
           ports:
             - containerPort: 3000
